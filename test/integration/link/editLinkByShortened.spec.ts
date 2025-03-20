@@ -8,8 +8,9 @@ describe(`PUT ${apiRoute}/:shortened`, () => {
   const url = 'https://gustavosachetto.site'
 
   it('should be able to update a shortened link', async () => {
-    const links = await Link.find()
-    const response = await request(app).put(`${apiRoute}/${links[0].shortened}`).send({ url: url })
+    const url = 'https://youtube.com.br'
+    const link = await Link.create({ url: url })
+    const response = await request(app).put(`${apiRoute}/${link.shortened}`).send({ url: url })
 
     expect(response.statusCode).toBe(200)
     expect(response.body.type).toBe('Success')

@@ -6,8 +6,9 @@ const apiRoute = '/api/v1/link/i'
 
 describe(`GET ${apiRoute}/:shortened`, () => {
   it('should be able to redirect by shortened link', async () => {
-    const links = await Link.find()
-    const response = await request(app).get(`${apiRoute}/${links[0].shortened}`).send()
+    const url = 'https://youtube.com.br'
+    const link = await Link.create({ url: url })
+    const response = await request(app).get(`${apiRoute}/${link.shortened}`).send()
     expect(response.redirect).toBe(true)
   })
 
