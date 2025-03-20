@@ -13,6 +13,7 @@ Na criação desse projeto, trabalhei com as demais tecnologias:
 - Jest (testes unitários e testes de integração)
 - Dotenv (configuração das variáveis de ambiente)
 - MongoDB (através do Mongoose)
+- Typescript (orientado a objetos)
 
 ## Inicialiazação
 __Para executar o projeto é necessário seguir os comandos abaixo:__
