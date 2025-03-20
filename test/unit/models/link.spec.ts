@@ -1,6 +1,6 @@
 import mongoose from "mongoose"
 import * as dotenv from "dotenv"
-import { ILink, Link } from "../../../src/models/link"
+import { ILink, Link } from "../../../src/models/link.ts"
 
 dotenv.config()
 

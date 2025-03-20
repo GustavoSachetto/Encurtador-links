@@ -1,5 +1,5 @@
 import mongoose from "mongoose"
-import { createRandomString } from "../utils/generate"
+import { createRandomString } from "../utils/generate.ts"
 
 export interface ILink {
   url: string,

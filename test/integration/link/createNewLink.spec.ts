@@ -1,4 +1,4 @@
-import { app } from "../app"
+import { app } from "../app.ts"
 import request from "supertest"
 
 const apiRoute = '/api/v1/link'

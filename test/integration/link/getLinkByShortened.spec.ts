@@ -1,6 +1,6 @@
-import { app } from "../app"
+import { app } from "../app.ts"
 import request from "supertest"
-import { Link } from "../../../src/models/link"
+import { Link } from "../../../src/models/link.ts"
 
 const apiRoute = '/api/v1/link/shortened'
 

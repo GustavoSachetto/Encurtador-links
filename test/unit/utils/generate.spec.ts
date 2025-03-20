@@ -1,4 +1,4 @@
-import { createRandomString } from "../../../src/utils/generate"
+import { createRandomString } from "../../../src/utils/generate.ts"
 
 describe('CreateRandomString', () => {
   it('should be able to create random string with eight length', () => {

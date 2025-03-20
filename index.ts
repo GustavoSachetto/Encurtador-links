@@ -1,6 +1,6 @@
 import mongoose from 'mongoose'
 import * as dotenv from 'dotenv'
-import routes from './src/routes'
+import routes from './src/routes/index.ts'
 import express, { json } from 'express'
 
 dotenv.config()

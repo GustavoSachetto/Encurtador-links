@@ -1,5 +1,5 @@
-import { Link } from "../models/link"
-import { Controller } from "./Controller"
+import { Link } from "../models/link.ts"
+import { Controller } from "./Controller.ts"
 import { Request, Response } from "express"
 
 export class LinkController extends Controller {

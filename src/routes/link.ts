@@ -1,5 +1,5 @@
 import { Router } from "express"
-import { LinkController } from "../controllers/LinkController"
+import { LinkController } from "../controllers/LinkController.ts"
 
 const router = Router()
 
