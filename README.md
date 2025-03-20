@@ -22,6 +22,11 @@ Baixar o projeto na sua máquina
 git clone https://github.com/GustavoSachetto/Encurtador-links.git
 ```
 
+Mudar para pasta do projeto
+```
+cd Encurtador-links
+```
+
 Copiar arquivo env.exemplo para o arquivo env
 ```
 cp .env.example .env
