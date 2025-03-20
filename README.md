@@ -29,7 +29,7 @@ cd Encurtador-links
 
 Copiar arquivo env.exemplo para o arquivo env
 ```
-cp .env.example .env
+copy .env.example .env
 ```
 
 Configurar sua url do mongodb no arquivo .env
